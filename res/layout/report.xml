@@ -1,0 +1,66 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+ <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="12" >
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/frame1" >
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+        
+         <com.example.itents.ImageBt
+            android:id="@+id/bt_menu"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="43dp"
+            android:background="@drawable/bg2"
+            android:clickable="true"
+            android:focusable="true" >
+        </com.example.itents.ImageBt>
+        
+         <com.example.itents.ImageBt
+            android:id="@+id/bt_find"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="43dp"
+            android:background="@drawable/bg2"
+            android:clickable="true"
+            android:focusable="true" >
+        </com.example.itents.ImageBt>
+        
+         <com.example.itents.ImageBt
+            android:id="@+id/bt_lost"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="43dp"
+            android:background="@drawable/bg2"
+            android:clickable="true"
+            android:focusable="true" >
+        </com.example.itents.ImageBt>
+        
+         <com.example.itents.ImageBt
+            android:id="@+id/bt_yourself"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="43dp"
+            android:background="@drawable/bg2"
+            android:clickable="true"
+            android:focusable="true" >
+        </com.example.itents.ImageBt>
+
+    </LinearLayout>
+
+</LinearLayout>
